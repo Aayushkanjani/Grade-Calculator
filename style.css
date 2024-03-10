@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(64b9451865a683fd39bccfa1_5f6e93d250a6d04f4eae9f02_Backgrounds-WFU-thumbnail-\(size\).jpeg);
+    background-size: cover;
+}
+
+.container input{
+    background-color: rgb(219, 124, 216); 
+    /* background-color: transparent; */
+    border: none;
+    margin: 14px;
+    padding: 20px 25px;
+    font-size: 15px;
+    border-radius: 10px;
+    width: 40%;
+    /* outline: none; */
+}
+.marks span{
+    font-weight: 600;
+    font-size: 20px;
+}
+.title{
+    align-items: center;
+    justify-content: center;
+    margin-left: 600px;
+}
+.output-button{
+    align-items: center;
+    justify-content: center;
+    margin-left: 600px;
+}
+.show-output{
+    margin-left: 750px;
+    font-weight: 600;
+}
+.show-grade{
+    margin-left: 750px;
+    font-weight: 600;
+}

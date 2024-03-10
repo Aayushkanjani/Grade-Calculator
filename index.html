@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>GPA Calculator</title>
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+    <div class="container">
+        <div class="title"><h1>Student Grade Calculator</h1></div>
+        <div class="marks">
+            <span>Enter your GPA in each course: <br></span>
+            <input type="number" placeholder="PSP"><br>
+            <input type="number" placeholder="Linear Algebra"><br>
+            <input type="number" placeholder="Engineering-Physics"><br>
+            <input type="number" placeholder="FEE"><br>
+            <input type="number" placeholder="TCS"><br>
+            <input type="number" placeholder="COI"><br>
+        </div>
+        <div class="output-button">
+            <input type="button" value="Get Grade" onclick="calculate()">
+        </div>
+        <div class="show-output"><p id="output"></p></div>
+        <div class="show-grade"><p id="grade"></p></div>
+    </div>
+    <script src="script.js"></script>
+    </body>
+</html>
